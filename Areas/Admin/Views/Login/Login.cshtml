@@ -1,0 +1,64 @@
+﻿@model MONACO_ASP.Models.Auth.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Areas/Admin/Views/Shared/Login_Layout.cshtml";
+}
+<!-- Content -->
+<div class="container-xxl">
+    <div class="authentication-wrapper authentication-basic container-p-y">
+        <div class="authentication-inner">
+            <!-- Register -->
+            <div class="card">
+                <div class="card-body">
+                    <!-- Logo -->
+                    <div class="app-brand justify-content-center">
+                        <span class="app-brand-text demo text-body fw-bolder"><img src="~/img/logo.png" alt=""></span>
+                    </div>
+                    <form asp-controller="Auth" asp-action="Login" method="post" class="mb-3" id="formAuthentication">
+                        @Html.HiddenFor(x => x.ReturnUrl, new {Value = "Admin/Home"})
+                        <div class="mb-3">
+                            <label for="email" class="form-label" asp-for="Email">Email</label>
+                            <input type="text"
+                                   asp-for="Email"
+                                   class="form-control"
+                                   id="email"
+                                   name="Email"
+                                   placeholder="Enter your email"
+                                   autofocus />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3 form-password-toggle">
+                            <div class="d-flex justify-content-between">
+                                <label class="form-label" for="password" asp-for="Password">Password</label>
+                                <a href="auth-forgot-password-basic.html">
+                                    <small>Forgot Password?</small>
+                                </a>
+                            </div>
+                            <div class="input-group input-group-merge">
+                                <input type="password"
+                                       asp-for="Password"
+                                       id="password"
+                                       class="form-control"
+                                       name="password"
+                                       placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                       aria-describedby="password" />
+                                <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                            </div>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input asp-for="RememberMe" class="form-check-input" type="checkbox" id="remember-me" />
+                                <label class="form-check-label" for="remember-me"> remember me </label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-primary d-grid w-100" type="submit">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- /Register -->
+        </div>
+    </div>
+</div>

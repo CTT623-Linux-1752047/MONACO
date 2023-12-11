@@ -1,0 +1,19 @@
+﻿@model IEnumerable<MONACO_ASP.Entities.Category>;
+
+<li class="@("Home".Trim().Equals(ViewData["ScreenName"]) ? "nav-item active" : "nav-item")"><a class="nav-link" href="@Url.Action("Index", "Home")">Home</a></li>
+@foreach (var category in Model)
+{
+	<li class="@(category.name.Trim().Equals(ViewData["ScreenName"]) ? "nav-item active" : "nav-item")">
+		<a class="nav-link" href="/@category.URL">
+			@category.name
+			</a>
+			</li>
+}
+<li class="nav-item submenu dropdown" style="margin-left:20px; margin-top: 6px">
+	<a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+	   aria-expanded="false"><span class="ti-user" style="font-size:20px"></span></a>
+	<ul class="dropdown-menu">
+		<li class="nav-item"><a class="nav-link" href="blog.html">Sign in</a></li>
+		<li class="nav-item"><a class="nav-link" href="single-blog.html">Sign up</a></li>
+	</ul>
+</li>

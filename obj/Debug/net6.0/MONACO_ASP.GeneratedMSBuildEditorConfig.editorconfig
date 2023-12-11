@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MONACO_ASP
+build_property.RootNamespace = MONACO_ASP
+build_property.ProjectDir = C:\Users\DavidLu\Documents\Toanlm\NET\MONACO_ASP\MONACO_ASP_MVC6\MONACO_ASP\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DavidLu\Documents\Toanlm\NET\MONACO_ASP\MONACO_ASP_MVC6\MONACO_ASP
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Areas/Admin/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Areas/Admin/Views/Shared/Index_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEluZGV4X0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Areas/Admin/Views/Shared/Login_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXExvZ2luX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/Brands/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRzXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/Shared/Components/MenuCategories/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudUNhdGVnb3JpZXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/Shared/Main_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1haW5fTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-91n8u1jhm7
+
+[C:/Users/DavidLu/Documents/Toanlm/NET/MONACO_ASP/MONACO_ASP_MVC6/MONACO_ASP/Views/Shared/Product_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFByb2R1Y3RfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-g7fh7h818r

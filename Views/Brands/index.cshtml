@@ -1,0 +1,66 @@
+﻿@model IEnumerable<MONACO_ASP.Entities.Brand>
+@{
+	string title = "Brands";
+	ViewData["Title"] = title;
+    Layout = "~/Views/Shared/Main_Layout.cshtml";
+}
+<section class="banner-area organic-breadcrumb">
+	<div class="container">
+		<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+			<div class="col-first">
+				<h1>@title page</h1>
+				<nav class="d-flex align-items-center">
+					<a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
+					<a href="category.html">@title</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="blog_categorie_area">
+    <div class="container">
+		<div class="row">
+		@for (char c = 'A'; c <= 'Z'; c++)
+		{
+			<div style="margin-left:25px"><a href="#@c"><h3>@c</h3></a></div>
+		}
+            <div style="margin-left:25px"><h3>#</h3></div>
+		</div>
+	</div>
+</section>
+
+<section class="related-product-area section_gap_bottom">
+	<div class="container">
+		@for (char c = 'A'; c <= 'Z'; c++)
+		{
+			<section id="@c">
+				@foreach (var brand in Model)
+					{
+						@if(@brand.name[0].ToString().ToUpper() == @c.ToString())
+						{
+				<div class="row">
+					<div class="section-title"><h1>@c</h1></div>
+				</div>
+						break;
+						}
+					}
+				<div class="row">
+					@foreach (var brand in Model)
+					{
+						@if(@brand.name[0].ToString().ToUpper() == @c.ToString())
+						{
+							<div class="col-lg-2 col-md-2 col-sm-6 mb-20">
+								<div class="single-related-product d-flex">
+									@*<a href="#"><img src="img/r1.jpg" width="80" height="50" alt=""></a>*@
+									<div class="desc">
+										<a href="#" class="title" style="font-size:18px"><span class="lnr lnr-heart" style="margin-right:10px"></span>@brand.name</a>
+									</div>
+								</div>
+							</div>
+						}
+					}
+				</div>
+			</section>
+		}
+	</div>
+</section>
